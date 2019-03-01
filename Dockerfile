@@ -1,7 +1,7 @@
 # Implements the cps_bot python script from github.com/ipzero209/cps_bot
 FROM ubuntu:18.04
 
-ENV PANOSVERSION 90
+ENV PANOSVERSION 81
 
 RUN apt update && apt -y upgrade && apt -y install curl unzip snmp snmp-mibs-downloader python python-pip
 RUN pip install pudb
